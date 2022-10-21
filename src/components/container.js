@@ -12,5 +12,8 @@ export const Container = styled.div`
   position: ${props => props.position || null};
   text-align: center;
   justify-content: center;
-  margin-top: ${props => props.marginTop || null}
+  margin-top: ${props => props.marginTop || null};
+  border-radius: ${props => props.borderRadius || null};
+  background-image: url(${props => props.backGroundImage || null});
+  border: ${props => props.border || null}
 `;

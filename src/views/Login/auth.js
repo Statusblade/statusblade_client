@@ -1,16 +1,22 @@
 import React from "react";
 import { Container } from "../../components/container";
+import { Header } from "../../components/header";
+import SocialImage from "../../components/assets/social.jpeg"
+import Signup from './signup'
 
 const Auth = () => {
   return (
     <Container
-      height={"400px"}
+      height={"450px"}
       padding={"15px"}
-      width={"30%"}
+      width={"50%"}
       margin={"0 auto"}
       marginTop={"20%"}
+      borderRadius={"10px"}
+      border={"solid 5px black"}
     >
-      Login Side
+      <Header height={'auto'}>Signup for Awesomeness</Header>
+      <Signup />
     </Container>
   );
 };
