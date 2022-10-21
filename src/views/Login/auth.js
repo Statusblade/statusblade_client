@@ -3,6 +3,7 @@ import { Container } from "../../components/container";
 import { Header } from "../../components/header";
 import SocialImage from "../../components/assets/social.jpeg"
 import Signup from './signup'
+import { FacebookLoginButton } from "react-social-login-buttons";
 
 const Auth = () => {
   return (

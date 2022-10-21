@@ -16,11 +16,10 @@ export const Label = styled.label`
 export const Input = styled.input`
   border-radius: 5px;
   display: block;
-  margin: 5px;
-  margin-bottom: 0.5em;
+
+  margin-bottom: 1.5em;
   width: calc(100% - 10px);
   height: 30px;
-  height: 50px;
 `;
 
 export const Message = styled.label`
