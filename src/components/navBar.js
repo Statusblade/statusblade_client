@@ -21,7 +21,7 @@ const Bar = styled.div`
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
   padding-top: 20px;
   transition: 0.5s;
 `;
