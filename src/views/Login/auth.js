@@ -8,7 +8,6 @@ import { FacebookLoginButton } from "react-social-login-buttons";
 const Auth = () => {
   return (
     <Container
-      background={"blue"}
       width={"50%"}
       float={"left"}
       backGroundImage={SocialImage}

@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.status-icon {
+  display: inline-flex !important;
+  vertical-align: middle;
+  margin-right: 1px;
+}
+
+span {
+  vertical-align: middle;
+  text-align: left;
+}
