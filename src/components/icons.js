@@ -9,12 +9,14 @@ import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettin
 import ListAltOutlinedIcon from "@mui/icons-material/ListAltOutlined";
 import InputOutlinedIcon from "@mui/icons-material/InputOutlined";
 import TodayIcon from '@mui/icons-material/Today';
+import PermMediaIcon from '@mui/icons-material/PermMedia';
 
 import ArrowRightOutlinedIcon from "@mui/icons-material/ArrowRightOutlined";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import EmailIcon from '@mui/icons-material/Email';
 import InsertChartIcon from '@mui/icons-material/InsertChart';
 import AnnouncementIcon from '@mui/icons-material/Announcement';
+import TuneIcon from '@mui/icons-material/Tune';
 
 export {
   HomeOutlinedIcon as HomeIcon,
@@ -32,5 +34,7 @@ export {
   TodayIcon as TodayIcon,
   EmailIcon as EmailIcon,
   InsertChartIcon as ChartIcon,
-  AnnouncementIcon as AnnouncementIcon
+  AnnouncementIcon as AnnouncementIcon,
+  TuneIcon as TuneIcon,
+  PermMediaIcon as StorageIcon
 };

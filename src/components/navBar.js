@@ -12,11 +12,13 @@ import {
   EmailIcon,
   ChartIcon,
   AnnouncementIcon,
+  TuneIcon,
+  StorageIcon
 } from "./icons";
 
 const Bar = styled.div`
   height: 100%;
-  width: 10%;
+  width: 15%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -76,14 +78,26 @@ const Navbar = () => {
         </span>
         <span>
           <NavLink>
-            <TodayIcon className="status-icon" />
+            <AnnouncementIcon className="status-icon" />
             Notifications
           </NavLink>{" "}
         </span>
         <span>
           <NavLink>
-            <AnnouncementIcon className="status-icon" />
+            <ChartIcon className="status-icon" />
             Analytics
+          </NavLink>{" "}
+        </span>
+        <span>
+          <NavLink>
+            <TuneIcon className="status-icon" />
+            Settings
+          </NavLink>{" "}
+        </span>
+        <span>
+          <NavLink>
+            <StorageIcon className="status-icon" />
+            Storage
           </NavLink>{" "}
         </span>
         <Borderline />

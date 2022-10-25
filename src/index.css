@@ -15,10 +15,17 @@ code {
 .status-icon {
   display: inline-flex !important;
   vertical-align: middle;
-  margin-right: 1px;
+  margin-right: 10px;
 }
 
 span {
   vertical-align: middle;
   text-align: left;
+}
+
+.social-icon {
+  margin: 10px;
+  background: white;
+  border-radius: 50%;
+  border: solid white 3px;
 }
