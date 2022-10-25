@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  display: 'block';
+  display: ${props => props.display || 'block'};
   width: ${props => props.width || '100%'};
   height: ${props => props.height || '100vh'};
   color:  ${props => props.color || 'black'};
@@ -15,5 +15,7 @@ export const Container = styled.div`
   margin-top: ${props => props.marginTop || null};
   border-radius: ${props => props.borderRadius || null};
   background-image: url(${props => props.backGroundImage || null});
-  border: ${props => props.border || null}
+  border: ${props => props.border || null};
+  overflow-y: ${props => props.overflow || null};
+  flex: ${props => props.flex || null};
 `;

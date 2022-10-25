@@ -19,13 +19,13 @@ import {
 const Bar = styled.div`
   height: 100%;
   width: 15%;
-  position: fixed;
+
   z-index: 1;
-  top: 0;
-  left: 0;
+
   background-color: rgba(0, 0, 0, 0.9);
   padding-top: 20px;
   transition: 0.5s;
+  float: ${props => props.float || null};
 `;
 
 const NavLink = styled.a`
@@ -54,7 +54,7 @@ const Borderline = styled.hr`
 const Navbar = () => {
   return (
     <React.Fragment>
-      <Bar>
+      <Bar float={"left"}>
         <ProfileImage src={ProfilePic} />
         <ProfileName>Palermo Deschamps</ProfileName>
         <Borderline />

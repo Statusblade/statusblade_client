@@ -10,7 +10,7 @@ export const Searchbar = styled.input`
   background-color: rgba(255, 0, 0, 0.7);
   border: solid 2px black;
   border-radius: 30px;
-  width: 50%;
+  width: 100%;
   ::placeholder {
     color: white;
   }
