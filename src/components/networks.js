@@ -6,12 +6,13 @@ import { Container } from "./container";
 const Networks = () => {
   return (
     <Container
-      background={"rgba(0, 0, 0, 0.7)"}
+      background={"rgba(0, 0, 0, 0.6)"}
       height={"auto"}
       width={"100%"}
       margin={"10px"}
       padding={"10px"}
-      borderRadius={"30px"}
+      borderRadius={"15px"}
+      boxShadow={"rgb(38, 57, 77) 0px 20px 30px -10px"}
     >
       <SocialIcon network="twitter" className="social-icon"/>
       <SocialIcon network="linkedin" className="social-icon"/>

@@ -1,16 +1,23 @@
 import React from "react";
 import { Container } from "./container";
 import { ProfileImage } from "./profileImage";
+import {
+  PhotoIcon,
+  VideoIcon,
+  BlogIcon,
+  LinkIcon
+} from "./icons";
+
 import styled from 'styled-components'
 import ProfilePic from "./assets/profileImage.jpeg";
 
-export const PostInput = styled.textarea`
+export const PostInput = styled.input`
   font-size: 18px;
-  border-radius: 30px;
+  border-radius: 10px;
   background-color: white;
   border: solid 1px black;
-  width: 70%;
-  height: 70px;
+  width: 100%;
+  height: 20px;
   padding: 15px;
   flex: ${props => props.flex || null};
   ::placeholder {
@@ -25,17 +32,45 @@ export const PostInput = styled.textarea`
 const Post = () => {
   return (
     <Container
-      background={"rgba(0, 0, 0, 0.7)"}
+      background={"rgba(0, 0, 0, 0.9)"}
       height={"auto"}
       width={"100%"}
       margin={"10px"}
-      borderRadius={"30px"}
+      borderRadius={"10px"}
       padding={"10px"}
       marginTop={"20px"}
-      display={"flex"}
+      display={"block"}
+      boxShadow={"rgb(38, 57, 77) 0px 20px 30px -10px"}
     >
-      <ProfileImage src={ProfilePic} margin={"10px"}/>
-      <PostInput flex={1} placeholder={"What's on your mind."}/>
+    <Container width={"100%"} height={"auto"} display={"flex"} marginTop={"15px"}>
+      <Container float={"left"} flex={1} height={"auto"}>
+        <ProfileImage src={ProfilePic} margin={"5px"} width={"35px"} height={"35px"}/>
+      </Container>
+      <PostInput placeholder={"What's on your mind."}/>
+    </Container>
+
+    <Container height={"auto"} width={"100%"} marginTop={"10px"}>
+    <span className="status-span">
+      <PhotoIcon className="status-icon" />
+        Select Photo
+    </span>
+
+      <span className="status-span">
+        <VideoIcon className="status-icon" />
+          Post Video
+      </span>
+
+      <span className="status-span">
+        <BlogIcon className="status-icon" />
+          Write Blog
+      </span>
+
+      <span className="status-span">
+        <LinkIcon className="status-icon" />
+          Share Link
+      </span>
+    </Container>
+
     </Container>
   )
 }

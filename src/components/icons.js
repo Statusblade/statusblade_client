@@ -10,6 +10,7 @@ import ListAltOutlinedIcon from "@mui/icons-material/ListAltOutlined";
 import InputOutlinedIcon from "@mui/icons-material/InputOutlined";
 import TodayIcon from '@mui/icons-material/Today';
 import PermMediaIcon from '@mui/icons-material/PermMedia';
+import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
 
 import ArrowRightOutlinedIcon from "@mui/icons-material/ArrowRightOutlined";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
@@ -17,6 +18,9 @@ import EmailIcon from '@mui/icons-material/Email';
 import InsertChartIcon from '@mui/icons-material/InsertChart';
 import AnnouncementIcon from '@mui/icons-material/Announcement';
 import TuneIcon from '@mui/icons-material/Tune';
+import DuoIcon from '@mui/icons-material/Duo';
+import FeedIcon from '@mui/icons-material/Feed';
+import AddLinkIcon from '@mui/icons-material/AddLink';
 
 export {
   HomeOutlinedIcon as HomeIcon,
@@ -36,5 +40,9 @@ export {
   InsertChartIcon as ChartIcon,
   AnnouncementIcon as AnnouncementIcon,
   TuneIcon as TuneIcon,
-  PermMediaIcon as StorageIcon
+  PermMediaIcon as StorageIcon,
+  InsertPhotoIcon as PhotoIcon,
+  DuoIcon as VideoIcon,
+  FeedIcon as BlogIcon,
+  AddLinkIcon as LinkIcon
 };

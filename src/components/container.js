@@ -5,7 +5,7 @@ export const Container = styled.div`
   width: ${props => props.width || '100%'};
   height: ${props => props.height || '100vh'};
   color:  ${props => props.color || 'black'};
-  background: ${props => props.background || 'white'};
+  background: ${props => props.background || null};
   float: ${props => props.float || null};
   padding: ${props => props.padding || '0px'};
   margin: ${props => props.margin || '0px'};
@@ -18,4 +18,5 @@ export const Container = styled.div`
   border: ${props => props.border || null};
   overflow-y: ${props => props.overflow || null};
   flex: ${props => props.flex || null};
+  box-shadow: ${props => props.boxShadow || null};
 `;

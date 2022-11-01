@@ -29,3 +29,11 @@ span {
   border-radius: 50%;
   border: solid white 3px;
 }
+
+.status-span {
+  margin-right: 2px;
+  padding: 15px;
+  color: white;
+  width: 25%;
+  text-align: left;
+}
