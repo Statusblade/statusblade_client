@@ -16,7 +16,7 @@ export const PostInput = styled.input`
   border-radius: 10px;
   background-color: white;
   border: solid 1px black;
-  width: 100%;
+  width: 90%;
   height: 20px;
   padding: 15px;
   flex: ${props => props.flex || null};
@@ -70,6 +70,7 @@ const Post = () => {
           Share Link
       </span>
     </Container>
+
 
     </Container>
   )

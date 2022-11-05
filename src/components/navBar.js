@@ -13,7 +13,7 @@ import {
   ChartIcon,
   AnnouncementIcon,
   TuneIcon,
-  StorageIcon
+  StorageIcon,
 } from "./icons";
 
 const Bar = styled.div`
@@ -25,7 +25,7 @@ const Bar = styled.div`
   background-color: rgba(0, 0, 0, 0.9);
   padding-top: 20px;
   transition: 0.5s;
-  float: ${props => props.float || null};
+  float: ${(props) => props.float || null};
 `;
 
 const NavLink = styled.a`
@@ -57,6 +57,16 @@ const Navbar = () => {
       <Bar float={"left"}>
         <ProfileImage src={ProfilePic} />
         <ProfileName>Palermo Deschamps</ProfileName>
+        <Container
+          borderRadius={"5px"}
+          background={"white"}
+          height={"auto"}
+          color={"black"}
+          width={"50%"}
+          margin={"auto"}
+        >
+          <h3>10 Homies</h3>
+        </Container>
         <Borderline />
         <span>
           <NavLink>

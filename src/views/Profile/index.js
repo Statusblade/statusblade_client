@@ -21,6 +21,7 @@ const Profile = () => {
             <Post />
           </Container>
         </Container>
+
         <Groups />
         <Trending />
 

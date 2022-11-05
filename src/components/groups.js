@@ -1,5 +1,7 @@
 import React from "react";
+import { Image } from "./image";
 import { Container } from "./container";
+import Mario from "./assets/mario.jpeg";
 
 const Groups = () => {
   return (
@@ -17,6 +19,13 @@ const Groups = () => {
     >
       <h1>Groups</h1>
       <hr />
+      <Image src={Mario} width={'70px'} height={'70px'} borderRadius={"50%"} margin={'10px'}/>
+      <Image src={Mario} width={'70px'} height={'70px'} borderRadius={"50%"} margin={'10px'}/>
+      <Image src={Mario} width={'70px'} height={'70px'} borderRadius={"50%"} margin={'10px'}/>
+      <Image src={Mario} width={'70px'} height={'70px'} borderRadius={"50%"} margin={'10px'}/>
+      <Image src={Mario} width={'70px'} height={'70px'} borderRadius={"50%"} margin={'10px'}/>
+      <Image src={Mario} width={'70px'} height={'70px'} borderRadius={"50%"} margin={'10px'}/>
+
 
     </Container>
   )

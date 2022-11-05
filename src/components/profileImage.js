@@ -4,7 +4,7 @@ export const ProfileImage = styled.img`
   display: inline-block;
   width: ${props => props.width || "50px"};
   height: ${props => props.height || "50px"};
-  border-radius: 50%;
+  border-radius: ${props => props.borderRadius || "50%"};
   border: 4px solid white;
   background-repeat: no-repeat;
   background-position: center center;

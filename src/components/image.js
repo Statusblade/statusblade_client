@@ -7,4 +7,5 @@ export const Image = styled.img`
   position: ${(props) => props.position || null};
   bottom: ${(props) => props.bottom || null};
   right: ${(props) => props.right || null};
+  border-radius: ${props => props.borderRadius || "50%"};
 `;
